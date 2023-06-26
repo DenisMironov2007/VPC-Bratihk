@@ -2,6 +2,7 @@
 	<title>VPC Bratihka</title>
 </svelte:head>
 
+
 <nav>
 	<div class="nav-container">
 		<div class="nav-links">
@@ -13,6 +14,7 @@
 		</div>
 	</div>
 </nav>
+
 <div class="container">
 	<slot></slot>
 </div>
