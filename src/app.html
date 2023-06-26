@@ -6,6 +6,27 @@
 		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
 		<style>
+			html {
+				background-color: darkgrey;
+			}
+			.cot {
+				width: 1152px;
+				height: 178px;
+				flex-shrink: 0;
+				position: absolute;
+    			bottom: 0;
+				border-radius: 30px;
+				background-color: aliceblue;
+			}
+			.contayner {
+				position: relative;
+				margin-left: 64px;
+				width: 1152px;
+				height: 695px;
+				flex-shrink: 0;
+				border-radius: 30px;
+				background: lightgray 50% / cover no-repeat;
+			}
 			body {
 				background-position: lefttop;
 				font-family: 'Inter', sans-serif;
@@ -56,6 +77,9 @@
 		</style>
 	</head>
 	<body data-sveltekit-preload-data="hover">
+		<div class="contayner">
+			<div class="cot"></div>
+		</div>
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
 </html>
