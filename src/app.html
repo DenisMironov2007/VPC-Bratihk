@@ -6,8 +6,28 @@
 		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
 		<style>
+			.h1 {
+				position: absolute;
+				margin-top: 20px;
+				margin-left: 250px;
+				display: flex;
+				width: 332px;
+				height: 41px;
+				flex-direction: column;
+				flex-shrink: 0;
+			}
 			html {
 				background-color: darkgrey;
+			}
+			.rot {
+				position: absolute;
+				width: 160px;
+				height: 150px;
+				flex-shrink: 0;
+				bottom: 110px;
+				margin-left: 70px;
+				background-color: aliceblue;
+				border-radius: 100%;
 			}
 			.cot {
 				width: 1152px;
@@ -78,7 +98,10 @@
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div class="contayner">
-			<div class="cot"></div>
+			<div class="rot"></div>
+			<div class="cot">
+				<h1 class="h1">ВПК "Братишка"</h1>
+			</div>
 		</div>
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
