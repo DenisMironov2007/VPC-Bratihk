@@ -6,7 +6,7 @@
 		margin-left: 64px;
 	}
 	.raspisanie {
-		background-image: url(Raspisanie.jpg);
+		background: url(Raspisanie.jpg);
 		width: 900px;
 		height: 1260px;
 		z-index: 1;
