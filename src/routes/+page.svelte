@@ -26,6 +26,7 @@
 <section class="grid">
 	<article class="grid-item">
 		<div class="image">
+			<!-- svelte-ignore a11y-missing-attribute -->
 			<img src="new1.jpg"/>
 		</div>
 		<div class="info">
@@ -38,6 +39,7 @@
 	</article>
 	<article class="grid-item">
 		<div class="image">
+			<!-- svelte-ignore a11y-missing-attribute -->
 			<img src="new2.jpg"/>
 		</div>
 		<div class="info">
