@@ -11,6 +11,6 @@
 	</label>
 	
 	{#if visible}
-			<div class="raspisanie" transition:fade>1</div>
+			<div class="raspisanie" transition:fade></div>
 	{/if}
 </div>
