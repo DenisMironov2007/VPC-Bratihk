@@ -51,6 +51,10 @@
 				background-image: url(Rectangle.png);
 			}
 			body {
+				-ms-user-select: none; 
+				-moz-user-select: none; 
+				-webkit-user-select: none; 
+				user-select: none; 
 				background-position: top;
 				font-family: 'Inter', sans-serif;
 				margin: 0;
@@ -308,34 +312,48 @@
 				margin-left: 64px;
 			}
 			.blok {
-		width: 1152px;
-		background-color: #fff;
-		border-radius: 7px;
-		margin-left: 64px;
-	}
-	.raspisanie {
-		background: url(Raspisanie.jpg);
-		width: 900px;
-		height: 1260px;
-		z-index: 1;
-		margin-left: 120px;
-	}
-	.custom-checkbox {
-		position: absolute;
-		z-index: -1;
-		opacity: 0;
-	}
-	.h4 {
-		border-radius: 7px;
-		border: 1px solid black;
-		text-align: center;
-		cursor: default;
-	}
-	label {
-		margin-left: 80px;
-		border: 1px solid black;
-		border-radius: 4px;
-	}
+				width: 1152px;
+				background-color: #fff;
+				border-radius: 7px;
+				margin-left: 64px;
+			}
+			.raspisanie {
+				background: url(Raspisanie.jpg);
+				width: 900px;
+				height: 1260px;
+				z-index: 1;
+				margin-left: 120px;
+			}
+			.custom-checkbox {
+				position: absolute;
+				z-index: -1;
+				opacity: 0;
+			}
+			.h4 {
+				border-radius: 7px;
+				border: 1px solid black;
+				text-align: center;
+				cursor: default;
+			}
+			label {
+				margin-left: 80px;
+				border: 1px solid black;
+				border-radius: 4px;
+			}
+			input {
+				z-index: 2;
+			}
+			table {
+				text-align: center;
+				margin-left: 126px;
+				width: 900px;
+				border-collapse: collapse;
+				border: 1px solid black;
+			}
+			td {
+				padding: 3px;
+				border: 1px solid ;
+			}
 		</style>
 	</head>
 	<body data-sveltekit-preload-data="hover">
