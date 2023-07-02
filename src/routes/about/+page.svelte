@@ -31,8 +31,7 @@
 </style>
 
 <script>
-	import { beforeUpdate } from 'svelte';
-import { fade } from 'svelte/transition';
+	import { fade } from 'svelte/transition';
 	let visible = true;
 </script>
 
