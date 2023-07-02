@@ -6,7 +6,7 @@
 		margin-left: 64px;
 	}
 	.raspisanie {
-		background-image: url(raspisanie.jpg);
+		background-image: url(Raspisanie.jpg);
 		width: 900px;
 		height: 1260px;
 		z-index: 1;
@@ -43,6 +43,6 @@
 	</label>
 	
 	{#if visible}
-			<div class="raspisanie" transition:fade></div>
+			<div class="raspisanie" transition:fade>1</div>
 	{/if}
 </div>
