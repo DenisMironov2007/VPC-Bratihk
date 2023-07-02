@@ -1,8 +1,6 @@
 <svelte:head>
 	<title>VPC Bratihka</title>
 </svelte:head>
-
-
 <nav>
 	<div class="nav-container">
 		<div class="nav-links">
@@ -15,45 +13,47 @@
 	</div>
 </nav>
 
+<div class="contayner">
+	<div class="hone_rot"></div>
+	<div class="rot"></div>
+	<div class="cot">
+		<h1 class="h1">ВПК "Братишка"</h1>
+		<p class="p1">город Ахтубинск</p>
+	</div>
+</div>
+
 <div class="container">
 	<slot></slot>
 </div>
-
 <script>
 	const nav = [
 		{ 
-			title: 'О клубе',
+			title: 'Главная',
+			href: '/',
+			isShow: true
+		},
+		{ 
+			title: 'Занятия',
 			href: '/about',
 			isShow: true
 		},
 		{
-			title: 'Новости',
+			title: 'Медиа',
 			href: '/new',
 			isShow: true
 		},
 		{
-			title: 'Занятия',
+			title: 'Достижения',
 			href: '/lessons',
 			isShow: true
 		},
 		{
-			title: 'Медиа',
+			title: 'Контакты',
 			href: '/media',
 			isShow: true
-		},
-		{
-			title: 'Достижения',
-			href: '/achievements',
-			isShow: true
-		},
-		{
-			title: 'Обратная связь',
-			href: '/feedback',
-			isShow: true
-		},
+		}
 	]
 </script>
-
 <style>
 	.container {
 		max-width: 1400px;
