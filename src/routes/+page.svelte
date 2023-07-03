@@ -30,11 +30,6 @@
 			<img src="new1.jpg"/>
 		</div>
 		<div class="info">
-			<h2>Лазертаг</h2>
-			<div class="info-text"></div>
-			<div class="button-wrap">
-				<a class="atuin-btn" href="#link">Подробнее</a>
-			</div>
 		</div>
 	</article>
 </section>
