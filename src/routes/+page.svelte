@@ -23,6 +23,17 @@
 
 <h1 class="bit">Новости</h1>
 
+<div class="blocck">
+	<article class="grid-item">
+		<div class="image">
+			<!-- svelte-ignore a11y-missing-attribute -->
+			<img src="new3.jpg"/>
+		</div>
+		<div class="info">
+		</div>
+	</article>
+</div>
+
 <section class="grid">
 	<article class="grid-item">
 		<div class="image">
