@@ -5,6 +5,15 @@
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<meta name="viewport" content="width=device-width" />
 		%sveltekit.head%
+		<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+		<script>
+			jQuery(document).ready(function($) {
+				$('.spoiler_title').click(function() {
+					$(this).parents('.spoiler_wrap').find('.spoiler_content').toggleClass('open');
+					$(this).parents('.spoiler_wrap').find('.spoiler_arrow').toggleClass('open');
+				});
+			});
+		</script>
 		<style>
 			.h1 {
 				position: absolute;
@@ -91,10 +100,10 @@
 			.nav-links .link {
 				position: relative;
 				margin: 1em;
-				font-size: 0.85rem;
+				font-size: 1rem;
 				font-weight: 700;
 				letter-spacing: 1px;
-				color: rgb(0, 0, 139);
+				color: rgb(193, 28, 28);
 			}
 			.nav-logo {
 				position: relative;
@@ -128,6 +137,9 @@
 				border-radius: 5px;
 				height: fit-content;
 			}
+			body {
+				height: 1000px;
+			}
 			.spoiler_title {
 				cursor: pointer;
 			}
@@ -145,7 +157,7 @@
 				overflow: hidden;
 				margin-top: -10px;
 				opacity: 0;
-				font-size: 14px;
+				font-size: 16px;
 				color: #444;
 			}
 
@@ -260,7 +272,7 @@
 			}
 			/* Кнопка подробнее */
 			.atuin-btn {
-				margin-bottom: 100px;
+				margin-bottom: 400px;
 				display: inline-flex;
 				text-decoration: none;
 				position: relative;
@@ -304,9 +316,10 @@
 				left: 0;
 			}
 			footer {
+				margin-top: 0px;
 				border-radius: 7px;
 				background-color: #fff;
-				margin-bottom: -100px;
+				display: flex;
 			}
 			.bit {
 				margin-left: 64px;
@@ -353,6 +366,34 @@
 			td {
 				padding: 3px;
 				border: 1px solid ;
+			}
+			.operator {
+				color: blue;
+				font-weight: 700;
+				margin-left: 64px;
+				border-radius: 7px;
+				z-index: 1;
+				width: 1152px;
+			}
+			.oper-1 {
+				margin-left: 64px;
+			}
+			.h-2 {
+				font-size: 22px;
+			}
+			ul {
+				font-size: 22px;
+			}
+			.mesto {
+				width: 1152px;
+				margin-left: 64px;
+				padding-top: 100px;
+				font-size: 22px;
+			}
+			.mesto_1 {
+				width: 1152px;
+				margin-left: 64px;
+				font-size: 22px;
 			}
 		</style>
 	</head>
