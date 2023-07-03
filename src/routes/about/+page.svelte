@@ -3,6 +3,10 @@
 	let visible = true;
 </script>
 
+<svelte:head>
+	<title>Занятия</title>
+</svelte:head>
+
 <div class="blok">
 	<h1 class="h4">Расписание занятий</h1>
 	<label>
