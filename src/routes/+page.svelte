@@ -49,6 +49,6 @@
 	<p class="dva">Нашли ошибку?</p>
 	<p class="try">Разработчик: Миронов Денис Иванович. Связаться с разработчиком:</p>
 	<ul>
-		<li>Почта: mironovd715@gmail.com</li>
+		<li>Электронная почта: mironovd715@gmail.com</li>
 	</ul>
 </footer>
