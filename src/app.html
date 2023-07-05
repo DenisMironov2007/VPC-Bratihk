@@ -15,6 +15,15 @@
 			});
 		</script>
 		<style>
+			.obvode {
+				width: 120px;
+				height: 20px;
+				border-radius: 5px;
+				top: -10000px;
+				z-index: 3;
+				margin-left: 1100px;
+				background-color: #9b9a9a;
+			}
 			.h1 {
 				font-size: 30px;
 				font-weight: 700;
@@ -72,7 +81,13 @@
 				box-sizing: border-box;
 			}
 			a {
+				color: rgb(193, 28, 28);;
 				text-decoration: none;
+			}
+			a:hover {
+				color: blue;
+				border-radius: 5px;
+				background-color: #9b9a9a;
 			}
 			nav {
 				z-index: 1;
@@ -102,7 +117,6 @@
 				font-size: 19px;
 				font-weight: 700;
 				letter-spacing: 1px;
-				color: rgb(193, 28, 28);
 			}
 			.nav-logo {
 				position: relative;
@@ -377,7 +391,6 @@
 					z-index: 1;
 					position: sticky;
 					top: 0;
-					left: 500px;
 					right: 0;
 					margin:0 50px;
 					padding-top: 20px;

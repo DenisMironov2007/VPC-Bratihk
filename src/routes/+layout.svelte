@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>VPK Bratihka</title>
+	<title>Главная</title>
 </svelte:head>
 
 <nav>
@@ -26,6 +26,7 @@
 <div class="container">
 	<slot></slot>
 </div>
+
 <script>
 	const nav = [
 		{ 
