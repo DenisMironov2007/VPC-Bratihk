@@ -8,7 +8,7 @@
 <div class="blok">
 	<label>
 		<input type="checkbox" class="custom-checkbox" bind:checked={visible}/>
-		Расписание на Июль 2023г.
+		Расписание на Июль 2023
 	</label>
 	{#if visible}
 	<div  transition:fade>
@@ -174,7 +174,7 @@
 					<td>24</td>
 					<td>пн.</td>
 					<td>07.30-08.30</td>
-					<td>ФИЗО.</td>
+					<td>ФИЗО</td>
 					<td>ст.Волга</td>
 				</tr>
 				<tr>
