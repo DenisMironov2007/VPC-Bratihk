@@ -1,4 +1,5 @@
-<div class="virav"></div>
+<div class="virav">
+</div>
 
 <div class="opisanie">
 	<div class="spoiler_wrap">
@@ -12,7 +13,7 @@
 		</div>
 		<div class="spoiler_content">
 			<h1 class="h2">Военно-патриотический клуб «БРАТИШКА»<h1>
-			<p class="h2">Проводится работа с молодежью, в том числе допризывной, по военно-патриотическому воспитанию, военно-прикладным видам спорта, военной начальной подготовке, активному и полезному времяпрепровождению.</p>
+			<p class="p10">Проводится работа с молодежью, в том числе допризывной, по военно-патриотическому воспитанию, военно-прикладным видам спорта, военной начальной подготовке, активному и полезному времяпрепровождению.</p>
 			<p>Направления деятельности:</p>
 			<ul>
 				<li>Воздушно-десантная подготовка (работа при десантировании, прыжки с парашютом);</li>
@@ -30,17 +31,6 @@
 
 <h1 class="bit">Новости</h1>
 
-<div class="blocck">
-	<article class="grid-item">
-		<div class="image">
-			<!-- svelte-ignore a11y-missing-attribute -->
-			<img src="new3.jpg"/>
-		</div>
-		<div class="info">
-		</div>
-	</article>
-</div>
-
 <section class="grid">
 	<article class="grid-item">
 		<div class="image">
@@ -51,6 +41,16 @@
 		</div>
 	</article>
 </section>
+<div class="blocck">
+	<article class="grid-item">
+		<div class="image">
+			<!-- svelte-ignore a11y-missing-attribute -->
+			<img src="new3.jpg"/>
+		</div>
+		<div class="info">
+		</div>
+	</article>
+</div>
 <footer>
 	<p class="odin">Предложить идеи?</p>
 	<p class="dva">Нашли ошибку?</p>
