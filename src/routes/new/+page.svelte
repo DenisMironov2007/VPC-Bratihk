@@ -21,6 +21,6 @@
 </div>
 <ul class="mesto_1">
 	<li>Астраханская обл., г.Ахтубинск, ул.Величко 16</li>
-	<li>тел. 89053609699 или 89275637637, <a href="https://vk.com/bratishka_ahtubinsk">ссылка на группу ВКонтакте</a>,</li>
+	<li>тел. 89053609699, 89275637637, <a href="https://vk.com/bratishka_ahtubinsk">ссылка на группу ВКонтакте</a>,</li>
 	<li>Электронная почта: aroo_universal@mail.ru</li>
 </ul>
