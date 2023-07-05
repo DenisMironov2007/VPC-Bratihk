@@ -3,8 +3,9 @@
 	let visible = true;
 </script>
 
+<h1 class="h4">Расписание занятий</h1>
+
 <div class="blok">
-	<h1 class="h4">Расписание занятий</h1>
 	<label>
 		<input type="checkbox" class="custom-checkbox" bind:checked={visible}/>
 		Расписание на Июль 2023г.
