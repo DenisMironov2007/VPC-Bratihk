@@ -1,3 +1,5 @@
+<div class="virav"></div>
+
 <div class="opisanie">
 	<div class="spoiler_wrap">
 		<div class="spoiler_title">Описание

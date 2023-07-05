@@ -1,6 +1,7 @@
 <svelte:head>
 	<title>VPK Bratihka</title>
 </svelte:head>
+
 <nav>
 	<div class="nav-container">
 		<div class="nav-links">
