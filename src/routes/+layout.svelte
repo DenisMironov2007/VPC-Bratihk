@@ -18,7 +18,7 @@
 	<div class="hone_rot"></div>
 	<div class="rot"></div>
 	<div class="cot">
-		<h1 class="h1">ВПК "Братишка"</h1>
+		<p class="h1">ВПК "Братишка"</p>
 		<p class="p1">город Ахтубинск, Астраханская область</p>
 	</div>
 </div>
