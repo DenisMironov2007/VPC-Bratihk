@@ -51,6 +51,22 @@
 		</div>
 	</article>
 </div>
+<div class="ffg">
+	<div class="container">
+		<div class="forms">
+			<div class="form login">
+			<span class="title">17 августа 2021 г</span>
+			</div>
+		</div>
+	</div>
+	<div class="blockk"> 
+		<p>Свой первый парашютный прыжок юные ахтубинские спортсмены совершили на аэродроме Средней Ахтубы: <a href="https://www.youtube.com/watch?v=DF4t35AxprI">ссылка</a>.</p>
+	</div>
+	<!-- svelte-ignore a11y-missing-attribute -->
+	<img src="Rectangle 1 (1).png" class="ss_1">
+	<!-- svelte-ignore a11y-missing-attribute -->
+	<img src="Rectangle 1.png" class="ss_1">
+</div>
 <footer>
 	<p class="odin">Предложить идеи?</p>
 	<p class="dva">Нашли ошибку?</p>
